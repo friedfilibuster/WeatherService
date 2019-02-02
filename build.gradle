@@ -26,9 +26,9 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("com.squareup.okhttp3:okhttp:3.+")
-    compile("com.github.ben-manes.caffeine:caffeine:2.+")
+    compile("com.squareup.okhttp3:okhttp:3.12.1")
+    compile("com.github.ben-manes.caffeine:caffeine:2.6.2")
 
     testCompile("junit:junit")
-    testCompile("org.mockito:mockito-core:2.+")
+    testCompile("org.mockito:mockito-all:1.+")
 }
