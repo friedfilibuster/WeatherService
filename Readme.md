@@ -5,3 +5,7 @@ To build:
 To run:
 
 `gradle bootRun`
+
+To test:
+
+`gradle test`
