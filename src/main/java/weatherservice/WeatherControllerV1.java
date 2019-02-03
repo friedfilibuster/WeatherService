@@ -27,7 +27,7 @@ public class WeatherControllerV1 implements WeatherController {
    */
   @Override
   @RequestMapping(
-      path = "/v1/wind/{zipCode}",
+          path = "/api/v1/wind/{zipCode}",
       method = RequestMethod.GET,
       produces = "application/json")
   public WindData windDataForZip(@PathVariable("zipCode") String zipCode)
